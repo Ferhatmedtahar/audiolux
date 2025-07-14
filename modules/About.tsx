@@ -33,7 +33,7 @@ const About = () => {
           ease: "power2.inOut",
           stagger: 0.05,
         },
-        "-=0.5"
+        "-=1"
       );
   }, []);
   return (
@@ -88,7 +88,7 @@ const About = () => {
       <div className="bottom-grid">
         <div className="md:col-span-8">
           <div />
-          <img src="/images/abt33.jpeg" alt="grid-img-3" />
+          <img src="/images/abt3.jpeg" alt="grid-img-3" />
         </div>
 
         <div className="md:col-span-4">

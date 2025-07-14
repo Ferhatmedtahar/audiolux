@@ -68,8 +68,8 @@ function Hero() {
           scrub: true,
         },
       })
-      .to(".right-leaf", { y: 200 }, 0)
-      .to(".left-leaf", { y: -200 }, 0);
+      .to(".right-airpod", { y: 200 }, 0)
+      .to(".left-airpod", { y: -200 }, 0);
   }, [isMobile]);
 
   return (
@@ -78,17 +78,17 @@ function Hero() {
         <h1 className="title">Audiolux</h1>
         <Image
           src={`/images/air-pods-left-hero.png`}
-          alt="left-leaf"
+          alt="left-airpod"
           width={100}
           height={100}
-          className={`left-leaf`}
+          className={`left-airpod`}
         />
         <Image
           src={`/images/air-pods-right-hero.png`}
-          alt="right-leaf"
+          alt="right-airpod"
           width={100}
           height={100}
-          className={`right-leaf`}
+          className={`right-airpod`}
         />
         <div className="body">
           <div className="content">
@@ -99,11 +99,11 @@ function Hero() {
                 Seamlessly Yours
               </p>
             </div>
-            <div className="view-cocktails">
+            <div className="view-airpods">
               <p className="subtitle">
                 Unlock incredible sound. Experience the future of listening.
               </p>
-              <Link href="#airpods">Explore AirPods</Link>
+              <Link href="#menu">Explore AirPods</Link>
             </div>
           </div>
         </div>
