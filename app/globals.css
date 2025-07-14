@@ -42,7 +42,7 @@ body {
 }
 
 @utility text-gradient {
-  background: linear-gradient(to bottom, #ffffff, #898989);
+  background: linear-gradient(to bottom, #ffffff 0%, #898989 30%, #8a783f 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
