@@ -323,3 +323,33 @@ body {
     }
   }
 }
+@layer base {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0b0b0b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #e7d393;
+    border-radius: 6px;
+    border: 2px solid #e7d393;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--background);
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox  */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
